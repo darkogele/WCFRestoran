@@ -1,0 +1,7 @@
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\ClientKonWcfSoap\bin\Debug\ClientKonWcfSoap.exe.config
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\ClientKonWcfSoap\bin\Debug\ClientKonWcfSoap.exe
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\ClientKonWcfSoap\bin\Debug\ClientKonWcfSoap.pdb
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\ClientKonWcfSoap\obj\Debug\ClientKonWcfSoap.csprojResolveAssemblyReference.cache
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\ClientKonWcfSoap\obj\Debug\ClientKonWcfSoap.csproj.CoreCompileInputs.cache
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\ClientKonWcfSoap\obj\Debug\ClientKonWcfSoap.exe
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\ClientKonWcfSoap\obj\Debug\ClientKonWcfSoap.pdb

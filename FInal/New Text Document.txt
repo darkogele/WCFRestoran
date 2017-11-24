@@ -1,0 +1,91 @@
+MusterijaDbContext db = new MusterijaDbContext();
+
+        public void AddMusterija(Musterija m)
+        {
+            db.Musterija.Add(m);
+            db.SaveChanges();
+        }
+
+        public void Phone(Musterija m)
+        {
+            db.Musterija.Add(m);
+            db.SaveChanges();
+        }
+
+        public void Order(Musterija m)
+        {
+           
+            throw new NotImplementedException();
+        }
+
+        public void Comment(Musterija m)
+        {
+            throw new NotImplementedException();
+        }
+       
+        public void EditOrder(Musterija m)
+        {
+            db.Entry(m).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
+        }
+
+
+        public string Rating(Musterija m)
+        {
+            return m;
+        }
+
+        public void EditRating(Musterija m)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Musterija Get(int Id)
+        {
+            return db.Musterija.Find(Id);
+        }
+
+        public List<Musterija> GetAllCustomers()
+        {
+            return db.Musterija.ToList();
+        }
+
+        
+
+        public void RemoveMusterija(int id)
+        {
+            Musterija m = db.Musterija.Find(id);
+            if (m !=null)
+            {
+                db.Musterija.Remove(m);
+                db.SaveChanges();
+            }
+        }
+
+        public void RemoveOrder(int id)
+        {
+            throw new NotImplementedException();
+            //Musterija m = db.Musterija.Find(id);
+            //if (m !=null)
+            //{
+            //    db.Musterija.Remove(m);
+            //    db.SaveChanges();
+            //}
+            //RemoveOrder m = db.Musterija.Find(id);
+        }
+
+        int IRestoranService.Phone(Musterija m)
+        {
+            throw new NotImplementedException();
+        }
+
+        string IRestoranService.Comment(Musterija m)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IRestoranService.Rating(Musterija m)
+        {
+            throw new NotImplementedException();
+        }
+    }

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="EmployeeService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:20933/EmployeeService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:20933/EmployeeService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:20933/EmployeeService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCFSOAPService.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEmployeeService_getAllEmployees_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllEmployees" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_getAllEmployees_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllEmployeesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_Get_InputMessage">
+    <wsdl:part name="parameters" element="tns:Get" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_Get_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_Add_InputMessage">
+    <wsdl:part name="parameters" element="tns:Add" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_Add_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_Edit_InputMessage">
+    <wsdl:part name="parameters" element="tns:Edit" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_Edit_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_Remove_InputMessage">
+    <wsdl:part name="parameters" element="tns:Remove" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_Remove_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IEmployeeService">
+    <wsdl:operation name="getAllEmployees">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployeeService/getAllEmployees" message="tns:IEmployeeService_getAllEmployees_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployeeService/getAllEmployeesResponse" message="tns:IEmployeeService_getAllEmployees_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Get">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployeeService/Get" message="tns:IEmployeeService_Get_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployeeService/GetResponse" message="tns:IEmployeeService_Get_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Add">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployeeService/Add" message="tns:IEmployeeService_Add_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployeeService/AddResponse" message="tns:IEmployeeService_Add_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Edit">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployeeService/Edit" message="tns:IEmployeeService_Edit_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployeeService/EditResponse" message="tns:IEmployeeService_Edit_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Remove">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployeeService/Remove" message="tns:IEmployeeService_Remove_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployeeService/RemoveResponse" message="tns:IEmployeeService_Remove_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IEmployeeService" type="tns:IEmployeeService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getAllEmployees">
+      <soap:operation soapAction="http://tempuri.org/IEmployeeService/getAllEmployees" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get">
+      <soap:operation soapAction="http://tempuri.org/IEmployeeService/Get" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Add">
+      <soap:operation soapAction="http://tempuri.org/IEmployeeService/Add" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Edit">
+      <soap:operation soapAction="http://tempuri.org/IEmployeeService/Edit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Remove">
+      <soap:operation soapAction="http://tempuri.org/IEmployeeService/Remove" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EmployeeService">
+    <wsdl:port name="BasicHttpBinding_IEmployeeService" binding="tns:BasicHttpBinding_IEmployeeService">
+      <soap:address location="http://localhost:20933/EmployeeService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,7 @@
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\SoapMessage\bin\SoapMessage.dll.config
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\SoapMessage\bin\SoapMessage.dll
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\SoapMessage\bin\SoapMessage.pdb
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\SoapMessage\obj\Debug\SoapMessage.csprojResolveAssemblyReference.cache
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\SoapMessage\obj\Debug\SoapMessage.csproj.CoreCompileInputs.cache
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\SoapMessage\obj\Debug\SoapMessage.dll
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\SoapMessage\obj\Debug\SoapMessage.pdb

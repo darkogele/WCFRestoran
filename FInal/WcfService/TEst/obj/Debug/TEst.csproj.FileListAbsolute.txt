@@ -1,0 +1,6 @@
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\TEst\bin\Debug\TEst.dll.config
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\TEst\bin\Debug\TEst.dll
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\TEst\bin\Debug\TEst.pdb
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\TEst\obj\Debug\TEst.csproj.CoreCompileInputs.cache
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\TEst\obj\Debug\TEst.dll
+C:\Users\darko.gelevski\Desktop\WCF\FInal\WcfService\TEst\obj\Debug\TEst.pdb

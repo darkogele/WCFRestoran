@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Angular Povik Do Web Api do Wcf and back </h2>
+
+<body   ng-app="app" >
+    <div ng-controller="main">
+        {{error}}
+       <div>{{something}}</div> 
+        <br/>
+        Your name:<input type="text" ng-model="username"/>
+        <button class="btn btn-primary" ng-click="api()">Stinsni me</button>
+        <label>{{greeting}}</label>
+        <label>{{apiscore}}</label>       
+        <hr />
+        <label>{{myWelcome}}</label>
+        <br/>
+
+
+        Broj za sobiranje :
+        <input type="text" ng-model="soberi1" name="value1" /> 
+        I 2 broj 
+        <input type="text" ng-model="soberi2" name="value2" /> 
+        Rezultatot e :
+        {{Soberi1}} + {{Soberi2}}
+        
+        <button class="btn btn-info" type="button" ng-click="soberi(Soberi1, Soberi2)">Soberi</button>
+        <label ng-model="plus" name="rezultat">Zbirot e :{{plus}}</label>
+        <hr />
+       
+        <br/>
+        Broj za odzemanje:
+        <input type="text" ng-model="odzimanje1" name="odzimanje1" />
+        i 2 broj 
+        <input type="text" ng-model="odzimanje2" name="odzimanje2" />
+        Rezultatot e : 
+        {{odzimanje1}} - {{odzimanje2}}
+        <button class="btn btn-info" type="button" ng-click="odzemi(odzimanje1, odzimanje2)">Odzemi</button>
+        <label ng-model="minus" name="rezultat2">Ostatokot e :{{minus}}</label>
+
+
+        <hr />
+
+        <br />
+        Broj za Mnozenje:
+        <input type="text" ng-model="Mnozi1" name="odzimanje1" />
+        i 2 broj
+        <input type="text" ng-model="Mnozi2" name="odzimanje2" />
+        Rezultatot e :
+        {{Mnozi1}} * {{Mnozi2}}
+        <button class="btn btn-info" type="button" ng-click="mnozi(Mnozi1, Mnozi2)">Mnozi</button>
+        <label ng-model="pomnozi" name="rezultat3">Pomnozeno e :{{pomnozi}}</label>
+
+
+        <hr />
+
+        Broj za Delenje:
+        <input type="text" ng-model="deli1" name="deli1"/>
+        i 2 broj 
+        <input type="text" ng-model="deli2" name="deli2" />
+        Rezultatot e:
+        {{deli1}} /{{deli2}}
+        <button class="btn btn-info" type="button" ng-click="deli(deli1, deli2)">Deli</button>
+        <label ng-model="podeleno" name="rezultat4">Podeleno e :{{podeleno}}</label>
+
+        <hr/>
+        <label style="align:center" ng-style="green">STATUS CODE :{{statuscode}}</label>
+        @*<span draggable>Drag ME</span>*@
+    </div>
+
+</body>

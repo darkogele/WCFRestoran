@@ -1,0 +1,10 @@
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll.config
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.pdb
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\EmployeeDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\EmployeeDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
+C:\Users\darko.gelevski\Desktop\WCF\FInal\Client\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb
